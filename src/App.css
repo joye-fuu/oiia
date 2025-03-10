@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: monospace;
   animation: fadeInAnimation ease 3s;
+
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -23,5 +24,39 @@ body {
 
   100% {
     opacity: 1;
+  }
+}
+
+.loader {
+  position: absolute;
+  width: 55px;
+  aspect-ratio: 1;
+  --g1: conic-gradient(from 90deg at 3px 3px, #61a4db 90deg, #0000 0);
+  --g2: conic-gradient(from -90deg at 22px 22px, #61a4db 90deg, #61a4db 0);
+  background: var(--g1), var(--g1), var(--g1), var(--g2), var(--g2), var(--g2);
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  animation: l7 1.5s infinite;
+}
+
+@keyframes l7 {
+  0% {
+    background-position: 0 0, 0 100%, 100% 100%
+  }
+
+  25% {
+    background-position: 100% 0, 0 100%, 100% 100%
+  }
+
+  50% {
+    background-position: 100% 0, 0 0, 100% 100%
+  }
+
+  75% {
+    background-position: 100% 0, 0 0, 0 100%
+  }
+
+  100% {
+    background-position: 100% 100%, 0 0, 0 100%
   }
 }

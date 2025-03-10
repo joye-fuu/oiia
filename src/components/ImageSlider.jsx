@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const ImageSlider = () => {
 
-  const art_img_class = "h-50"
+  const art_img_class = "h-60"
 
   return (
     <div className="overflow-hidden w-full py-5 flex flex-col gap-3 z-0">
