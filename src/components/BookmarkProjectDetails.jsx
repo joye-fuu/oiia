@@ -1,5 +1,5 @@
 import React from 'react'
-import {MODAL_CLASS} from '../Styles.jsx'
+import {MODAL_INNER, MODAL_OUTER} from '../Styles.jsx'
 
 const BookmarkProjectDetails = (setState) => {
 
@@ -7,10 +7,10 @@ const BookmarkProjectDetails = (setState) => {
   const DESC = "a bookmarks manager! you can add, edit, filter, and drag n drop to reorganise. this was made (painfully) with vanilla javascript";
   
   return <div
-      className="fixed inset-0 flex items-center justify-center bg-black/30 z-10"
-      onClick={() => setState(false)}
-    >
-    <div className={MODAL_CLASS}>
+    className={MODAL_OUTER}
+    onClick={() => setState(false)}
+  >
+    <div className={MODAL_INNER}>
       <h2 className="text-xl font-bold">{TITLE}</h2>
       <p className="text-sm">{DESC}</p>
       <img src="img/bookmarks.gif" className='pt-4 z-1'></img>

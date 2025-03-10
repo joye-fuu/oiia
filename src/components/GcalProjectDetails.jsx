@@ -1,5 +1,5 @@
 import React from 'react'
-import {MODAL_CLASS} from '../Styles.jsx'
+import {MODAL_INNER, MODAL_OUTER} from '../Styles.jsx'
 
 const GcalProjectDetails = (setState) => {
 
@@ -7,10 +7,10 @@ const GcalProjectDetails = (setState) => {
   const DESC = "a google workspace add-on which sums up how you've spent your time in google calendar. made with google cardspace API";
 
   return <div
-      className="fixed inset-0 flex items-center justify-center bg-black/30 z-10"
+    className={MODAL_OUTER}
       onClick={() => setState(false)}
     >
-    <div className={MODAL_CLASS}>
+    <div className={MODAL_INNER}>
       <h2 className="text-xl font-bold">{TITLE}</h2>
       <p className="text-sm">{DESC}</p>
       <img src="img/timestats.gif" className='pt-4'></img>

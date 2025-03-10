@@ -29,14 +29,21 @@ body {
 
 @keyframes gradient {
   0% {
-    background: #FF5733;
+    background-position: 0% 50%;
   }
 
   50% {
-    background: #33FF57;
+    background-position: 100% 50%;
   }
 
   100% {
-    background: #3357FF;
+    background-position: 0% 50%;
   }
+}
+
+.about-gradient {
+  background: linear-gradient(90deg, #3ba2e3, #3d9eed,  #3d89ed);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  height: 100vh;
 }
