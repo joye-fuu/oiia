@@ -1,8 +1,8 @@
 import React from 'react'
+import {MODAL_CLASS} from '../Styles.jsx'
 
 const PlatformerProjectDetails = (setState) => {
 
-  const MODAL_CLASS = "bg-white p-6 rounded-sm shadow-lg w-2xl text-center flex justify-center flex-col items-center";
   const TITLE = "Work in progress";
   const DESC = "i will finish it one day...";
   
@@ -13,7 +13,7 @@ const PlatformerProjectDetails = (setState) => {
     <div className={MODAL_CLASS}>
       <h2 className="text-xl font-bold">{TITLE}</h2>
       <p className="text-sm">{DESC}</p>
-      <img src="/img/platformer.gif" className='pt-4'></img>
+      <img src="img/platformer.gif" className='pt-4'></img>
     </div>
   </div>  
 
