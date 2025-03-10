@@ -4,7 +4,7 @@ import {MODAL_CLASS} from '../Styles.jsx'
 const GcalProjectDetails = (setState) => {
 
   const TITLE = "Google Calendar time tracker";
-  const DESC = "a google workspace add-on which sums up how you've blocked your time in google calendar based on its colour. made with google cardspace API";
+  const DESC = "a google workspace add-on which sums up how you've spent your time in google calendar. made with google cardspace API";
 
   return <div
       className="fixed inset-0 flex items-center justify-center bg-black/30 z-10"
