@@ -4,7 +4,7 @@ import {MODAL_CLASS} from '../Styles.jsx'
 const PlatformerProjectDetails = (setState) => {
 
   const TITLE = "Work in progress";
-  const DESC = "i will finish it one day...";
+  const DESC = "will it ever be finished..? no one knows";
   
   return <div
       className="fixed inset-0 flex items-center justify-center bg-black/30 z-10"

@@ -4,7 +4,7 @@ const Project = ({projName, desc, imgUrl, modalToggle}) => {
 
   return (
     <div
-      className='bg-blue-400 rounded-sm size-70 p-5 flex flex-col cursor-pointer items-center hover:bg-blue-500'
+      className='bg-blue-400 shadow-lg rounded-sm size-70 p-5 flex flex-col cursor-pointer items-center hover:bg-blue-500'
       onClick={modalToggle}
     >
       <img
