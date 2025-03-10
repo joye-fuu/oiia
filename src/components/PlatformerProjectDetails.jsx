@@ -4,7 +4,7 @@ import {MODAL_INNER, MODAL_OUTER} from '../Styles.jsx'
 const PlatformerProjectDetails = (setState) => {
 
   const TITLE = "unity platformer";
-  const DESC = "a platformer that i started making back in high school. will it ever be finished? no one knows";
+  const DESC = "half-complete platformer i made after getting super inspired by celeste. will it ever be finished? no one knows";
   
   return <div
     className={MODAL_OUTER}
