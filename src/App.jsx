@@ -116,7 +116,7 @@ const App = () => {
       </section>
       <section className="flex flex-col text-center text-3xl mt-10">
         <h1 className='text-3xl p-8'>art</h1>
-        <p className='text-gray-500 text-sm -mt-5 mb-5'>i also like to draw sometimes! here are some of my favourite works</p>
+        <p className='text-gray-500 text-sm -mt-5 mb-5'>i also like to draw sometimes! here's some of my favourites</p>
         <ImageSlider />
       </section>
 

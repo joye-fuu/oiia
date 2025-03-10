@@ -4,7 +4,7 @@ import {MODAL_CLASS} from '../Styles.jsx'
 const BookmarkProjectDetails = (setState) => {
 
   const TITLE = "Playlist bookmarks";
-  const DESC = "an (overengineered) bookmark manager. you can add, edit, filter, and drag n drop to reorganise";
+  const DESC = "a bookmarks manager! you can add, edit, filter, and drag n drop to reorganise. this was made (painfully) with vanilla javascript";
   
   return <div
       className="fixed inset-0 flex items-center justify-center bg-black/30 z-10"
