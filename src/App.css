@@ -40,10 +40,3 @@ body {
     background-position: 0% 50%;
   }
 }
-
-.about-gradient {
-  background: linear-gradient(90deg, #3ba2e3, #3d9eed,  #3d89ed);
-  background-size: 400% 400%;
-  animation: gradient 5s ease infinite;
-  height: 100vh;
-}

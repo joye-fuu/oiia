@@ -1,10 +1,14 @@
+import React from 'react'
 import { motion } from "framer-motion";
 
-const ImageSlider = () => {
+const Art = () => {
 
   const art_img_class = "h-60"
 
   return (
+      <section className="flex flex-col text-center text-3xl mt-10">
+        <h1 className='text-3xl p-8'>art</h1>
+        <p className='text-gray-500 text-sm -mt-5 mb-5'>i also like to draw sometimes! here's some of my favourites</p>
     <div className="overflow-hidden w-full py-5 flex flex-col gap-3 z-0">
       <motion.div
         className="-z-10"
@@ -49,8 +53,9 @@ const ImageSlider = () => {
         </div>
       </motion.div>
     </div>
+      </section>
   );
-};
 
-export default ImageSlider;
+}
 
+export default Art
