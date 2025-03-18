@@ -5,11 +5,12 @@ import Projects from './components/projects/Projects';
 import GraphicDesign from './components/GraphicDesign';
 import Art from './components/Art';
 import End from './components/End';
+import Navbar from "./components/Navbar";
 
 const App = () => {
-
   return (
     <div>
+      <Navbar />
       <About />
       <Projects />
       <GraphicDesign />

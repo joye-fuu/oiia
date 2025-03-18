@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .modal-outer {
-  @apply fixed inset-0 flex items-center justify-center bg-black/30 z-10 p-100;
+  @apply fixed inset-0 flex items-center justify-center bg-black/30 z-2 p-100;
 }
 
 .modal-inner {

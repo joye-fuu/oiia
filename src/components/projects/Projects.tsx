@@ -34,23 +34,21 @@ const Projects = () => {
   };
 
   return (
-    <div>
-      <section className="flex flex-col text-center p-10 pt-15">
-        <h1 className='text-3xl'>projects</h1>
-        <div className='flex flex-wrap justify-center p-10 items-center gap-5'>
+    <section id="projects" className="flex flex-col text-center pt-25">
+      <h1 className='text-3xl'>projects</h1>
+      <div className='flex flex-wrap justify-center p-10 items-center gap-5'>
 
-          <Project info={GCAL_PROJECT_INFO} setState={setGcalDetails} />
-          <ProjectModal info={GCAL_PROJECT_INFO} open={gcalDetails} setState={setGcalDetails} />
-          
-          <Project info={BOOKMARK_PROJECT_INFO} setState={setBookmarkDetails}/>
-          <ProjectModal info={BOOKMARK_PROJECT_INFO} open={bookmarkDetails} setState={setBookmarkDetails} />
+        <Project info={GCAL_PROJECT_INFO} setState={setGcalDetails} />
+        <ProjectModal info={GCAL_PROJECT_INFO} open={gcalDetails} setState={setGcalDetails} />
+        
+        <Project info={BOOKMARK_PROJECT_INFO} setState={setBookmarkDetails}/>
+        <ProjectModal info={BOOKMARK_PROJECT_INFO} open={bookmarkDetails} setState={setBookmarkDetails} />
 
-          <Project info={UNITY_PLATFORMER_INFO} setState={setPlatformerDetails}/>
-          <ProjectModal info={UNITY_PLATFORMER_INFO} open={platformerDetails} setState={setPlatformerDetails} />
+        <Project info={UNITY_PLATFORMER_INFO} setState={setPlatformerDetails}/>
+        <ProjectModal info={UNITY_PLATFORMER_INFO} open={platformerDetails} setState={setPlatformerDetails} />
 
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
   )
 }
 
