@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Project from "./Project";
+import Project from "./ProjectButton";
 import { ProjectInfo } from 'Interfaces';
 import ProjectModal from './ProjectModal';
 
@@ -34,7 +34,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="flex flex-col text-center pt-25">
+    <section id="projects" className="section">
       <h1 className='text-3xl'>projects</h1>
       <div className='flex flex-wrap justify-center p-10 items-center gap-5'>
 

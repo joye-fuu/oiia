@@ -6,10 +6,10 @@ const ProjectModal = ({ info, open, setState }: { info: ProjectInfo, open: boole
   if (!open) return null;
 
   return <div
-    className="modal-outer"
+    className="fixed inset-0 flex items-center justify-center bg-black/30 z-2 p-100"
     onClick={() => setState(false)}
   >
-    <div className="modal-inner">
+    <div className="bg-white p-6 rounded-sm shadow-lg w-xl text-center flex justify-center flex-col items-center">
       <h2 className="text-xl font-bold">{info.name}</h2>
       <p className="text-sm">{info.desc}</p>
       <img src={info.gif} className='pt-4'></img>

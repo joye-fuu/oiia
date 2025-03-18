@@ -1,5 +1,4 @@
 import { ProjectInfo } from 'Interfaces';
-import "./projects.css";
 
 const Project = ({info, setState}: {info: ProjectInfo, setState: (value: boolean) => void}) => {
     return (

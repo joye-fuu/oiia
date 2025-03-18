@@ -1,7 +1,7 @@
 import "./App.css";
 
 import About from "./components/About";
-import Projects from './components/projects/Projects';
+import Projects from './components/Projects';
 import GraphicDesign from './components/GraphicDesign';
 import Art from './components/Art';
 import End from './components/End';

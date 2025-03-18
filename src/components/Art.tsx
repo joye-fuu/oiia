@@ -6,7 +6,7 @@ const Art = () => {
   // TODO REFACTOR LATER 💀💀💀💀
 
   return (
-    <section id="art" className="flex flex-col text-center text-3xl pt-20">
+    <section id="art" className="section">
       <h1 className='text-3xl p-8'>art</h1>
       <p className='text-gray-500 text-sm -mt-5 mb-5'>i also like to draw sometimes! here's some of my favourites</p>
       <div className="overflow-hidden w-full py-5 flex flex-col gap-3">

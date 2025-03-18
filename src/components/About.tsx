@@ -42,7 +42,7 @@ const Projects = () => {
               hello hello welcome!!
             </p>
             <button
-              className='shadow-lg rounded-xs mt-5 bg-white cursor-pointer hover:bg-amber-100 h-9 w-40'
+              className='shadow-lg rounded-xs mt-5 bg-white cursor-pointer hover:bg-blue-100 h-9 w-40'
               onClick={() => setAboutOpen(true)}
             >
               about

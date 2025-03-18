@@ -7,6 +7,10 @@
   height: 100vh;
 }
 
+.section {
+  @apply flex flex-col text-center pt-25 justify-center items-center
+}
+
 .art-img {
   @apply h-60
 }
@@ -16,5 +20,5 @@
 }
 
 .nav-button {
-  @apply px-4 py-2 text-gray-600 hover:cursor-pointer hover:bg-blue-500 hover:text-white
+  @apply px-6 py-4 text-gray-600 hover:cursor-pointer hover:bg-blue-500 hover:text-white
 }
