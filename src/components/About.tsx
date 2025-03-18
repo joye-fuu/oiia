@@ -4,13 +4,13 @@ import './components.css';
 
 const Projects = () => {
 
-  const [src, setSrc] = useState("img/oiia-1.gif");
+  const [oiia, setOiia] = useState("img/oiia-1.gif");
 
   const handleOiiaDown = () => {
-    setSrc("img/oiia-2.gif");
+    setOiia("img/oiia-2.gif");
   };
   const handleOiiaUp = () => {
-    setSrc("img/oiia-1.gif");
+    setOiia("img/oiia-1.gif");
   };
 
   const [aboutOpen, setAboutOpen] = useState(false);
@@ -37,7 +37,7 @@ const Projects = () => {
             <div className='flex flex-col justify-center items-center'>
               <p className='text-blue-900 text-lg pt-20 -mb-10'>(click to spin)</p>
               <img
-                src={src}
+                src={oiia}
                 className="size-100 m-5 hover:size-110 hover:m-0 cursor-pointer"
                 onMouseDown={handleOiiaDown}
                 onMouseUp={handleOiiaUp}

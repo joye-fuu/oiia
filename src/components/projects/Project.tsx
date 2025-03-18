@@ -1,21 +1,21 @@
-import React from 'react'
+import { ProjectInfo } from 'Interfaces';
+import "./projects.css";
 
-const Project = ({projName, desc, imgUrl, modalToggle}) => {
-
-  return (
+const Project = ({info, setState}: {info: ProjectInfo, setState: (value: boolean) => void}) => {
+    return (
     <div
       className='bg-blue-400 shadow-lg rounded-sm size-70 p-5 flex flex-col cursor-pointer items-center hover:bg-blue-500'
-      onClick={modalToggle}
+      onClick={() => {setState(true)}}
     >
       <img
-        src={imgUrl}
+        src={info.img}
         className='rounded-sm size-40'
       ></img>
       <p className='text-lg'>
-        {projName}
+        {info.name}
       </p>
       <p className='text-xs text-gray-700'>
-        {desc}
+        {info.tools}
       </p>
     </div>
   )
