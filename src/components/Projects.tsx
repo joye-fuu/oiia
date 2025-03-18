@@ -36,7 +36,7 @@ const Projects = () => {
   return (
     <section id="projects" className="section">
       <h1 className='text-3xl'>projects</h1>
-      <div className='flex flex-wrap justify-center p-10 items-center gap-5'>
+      <div className='flex flex-wrap justify-center pt-10 items-center gap-5'>
 
         <Project info={GCAL_PROJECT_INFO} setState={setGcalDetails} />
         <ProjectModal info={GCAL_PROJECT_INFO} open={gcalDetails} setState={setGcalDetails} />

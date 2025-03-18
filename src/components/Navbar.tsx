@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='fixed top-0 left-0 w-full bg-blue-100/60 shadow-sm flex flex-row z-1'>
+    <div className='navbar'>
       <button onClick={() => scrollToSection("about")} className="nav-button">About</button>
       <button onClick={() => scrollToSection("projects")} className="nav-button">Projects</button>
       <button onClick={() => scrollToSection("graphic-design")} className="nav-button">Graphic design</button>

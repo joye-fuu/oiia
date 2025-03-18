@@ -25,7 +25,7 @@ const Projects = () => {
   return (
     <section id="about" className="h-screen flex items-center justify-center about-gradient">
       <div className='flex flex-col items-center'>
-        <div className='flex flex-row items-center'>
+        <div className='about-center'>
           <div className='flex flex-col justify-center items-center'>
             <p className='text-blue-900 text-lg pt-20 -mb-10'>(click to spin)</p>
             <img
@@ -37,8 +37,8 @@ const Projects = () => {
               draggable={false}
             />
           </div>
-          <div className='flex flex-col justify-center items-center pt-30'>
-            <p className='text-center text-2xl'>
+          <div className='flex flex-col justify-center items-center sm:pt-30 pt-0'>
+            <p className='text-center text-2xl m-5'>
               hello hello welcome!!
             </p>
             <button

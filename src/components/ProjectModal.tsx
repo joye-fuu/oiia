@@ -6,7 +6,7 @@ const ProjectModal = ({ info, open, setState }: { info: ProjectInfo, open: boole
   if (!open) return null;
 
   return <div
-    className="fixed inset-0 flex items-center justify-center bg-black/30 z-2 p-100"
+    className="fixed inset-0 flex items-center justify-center bg-black/30 z-2"
     onClick={() => setState(false)}
   >
     <div className="bg-white p-6 rounded-sm shadow-lg w-xl text-center flex justify-center flex-col items-center">
