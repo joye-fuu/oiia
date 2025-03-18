@@ -1,4 +1,4 @@
-import { ProjectInfo } from 'Interfaces';
+import { ProjectInfo } from 'components/Interfaces';
 
 const Project = ({info, setState}: {info: ProjectInfo, setState: (value: boolean) => void}) => {
     return (

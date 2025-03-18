@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Project from "./ProjectButton";
-import { ProjectInfo } from 'Interfaces';
+import { ProjectInfo } from 'components/Interfaces';
 import ProjectModal from './ProjectModal';
 
 const Projects = () => {

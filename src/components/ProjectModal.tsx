@@ -1,4 +1,4 @@
-import { ProjectInfo } from 'Interfaces'
+import { ProjectInfo } from 'components/Interfaces'
 import React from 'react'
 
 const ProjectModal = ({ info, open, setState }: { info: ProjectInfo, open: boolean, setState: any }) => {
